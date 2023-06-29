@@ -15,11 +15,13 @@
     "axios": "^1.4.0",
     "dplayer": "^1.27.1",
     "element-plus": "^2.3.7",
+    "flv.js": "^1.6.2",
     "tdesign-vue-next": "^1.3.8",
     "vue": "^3.2.47",
     "vue-devtools": "^5.1.4",
     "vue-router": "^4.2.2",
-    "white-web-sdk": "^2.16.42"
+    "white-web-sdk": "^2.16.42",
+    "agora-rtc-sdk-ng": "latest"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.1.0",

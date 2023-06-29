@@ -1,7 +1,7 @@
 <template>
   <div>
     <!-- 将Fastboard挂载到指定的div -->
-    <div ref="fastboardContainer" style="width: 80vw;height: 70vh"></div>
+    <div ref="fastboardContainer" class="paint-body"></div>
   </div>
 </template>
 
@@ -61,4 +61,9 @@ export default {
 </script>
 
 <style scoped>
+.paint-body {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  width: 100%;
+  height: 80vh;
+}
 </style>
