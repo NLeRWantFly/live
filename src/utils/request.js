@@ -2,9 +2,7 @@ import axios from 'axios'
 
 // create an axios instance
 const service = axios.create({
-  // baseURL: 'http://chenyp.top:8008', // url = base url + request url
-  baseURL: 'http://localhost:8080', // url = base url + request url
-  // withCredentials: true, // send cookies when cross-domain requests
+  baseURL: '/api', // url = base url + request url
   timeout: 5000 // request timeout
 })
 

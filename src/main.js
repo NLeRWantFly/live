@@ -1,6 +1,6 @@
 import { createApp } from 'vue'
 import App from './App.vue'
-import router from './utils/router'
+import router from './route/index'
 import TDesign from 'tdesign-vue-next';
 import service from "./utils/request.js";
 import 'tdesign-vue-next/es/style/index.css';

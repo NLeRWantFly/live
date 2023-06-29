@@ -27,8 +27,11 @@ export default {
   name: "index",
   data(){
     return{
-      username: '123456',
+      username: '',
     };
+  },
+  mounted() {
+    this.username = this.$route.query.username
   },
   methods:{
     toPaint(){
